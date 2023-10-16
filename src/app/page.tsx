@@ -3,8 +3,8 @@ import Image from "next/image"
 export default function Home() {
 
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="container mx-auto flex flex-wrap">
+    <main className="flex flex-col min-h-screen max-w-screen-md pl-0 ml-40 ">
+      <div className="container flex flex-wrap w-5/12 my-auto">
         <div className="flex flex-row columns-4 px-10 py-5 space-x-3">
           <Image src="/images/photo-book/01292018-28.jpg" className="hover:scale-125" width={300} height={300} alt=""/>
           <Image src="/images/photo-book/Brooke-108.jpg" className="hover:scale-125" width={300} height={300} alt=""/>
