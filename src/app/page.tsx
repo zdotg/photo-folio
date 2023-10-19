@@ -1,11 +1,14 @@
 import Image from "next/image"
 
+
 export default function Home() {
 
   return (
+
+    
     <main className="flex flex-col min-h-screen max-w-screen-md pl-0 ml-40 ">
       <div className="container flex flex-wrap w-5/12 my-auto">
-        <div className="flex flex-row columns-4 px-10 py-5 space-x-3">
+        <div className="flex flex-row columns-4 px-10 py-5 space-x-3 ">
           <Image src="/images/2018/feb-2018/Feb21-6.jpg" className="hover:scale-125" width={300} height={300} alt=""/>
           <Image src="/images/2018/feb-2018/Feb21-38.jpg" className="hover:scale-125" width={300} height={300} alt=""/>
           <Image src="/images/2018/july-2018/july-18_4407.jpg" className="hover:scale-125" width={300} height={300} alt=""/>
